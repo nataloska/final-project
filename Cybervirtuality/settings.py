@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'final.urls'
+ROOT_URLCONF = 'Cybervirtuality.urls'
 
 TEMPLATES = [
     {
@@ -96,7 +96,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'final.wsgi.application'
+WSGI_APPLICATION = 'Cybervirtuality.wsgi.application'
 
 
 # Database
