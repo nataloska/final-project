@@ -2,5 +2,5 @@ bootstrap
 django
 allauth
 awesomefont
-lotto font
+lato font
 bulma
