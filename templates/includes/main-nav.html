@@ -19,13 +19,13 @@
                 Boys
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="boys-link">
-                <a href="" class="dropdown-item">Shoes</a>
-                <a href="" class="dropdown-item">Tops</a>
-                <a href="" class="dropdown-item">Trousers</a>
-                <a href="" class="dropdown-item">Hoodies</a>
-                <a href="" class="dropdown-item">Hats</a>
-                <a href="" class="dropdown-item">All clothes</a>
-                <a href="" class="dropdown-item">SALE</a>
+                <a href="{% url 'products' %}?category=boysshoes" class="dropdown-item">Shoes</a>
+                <a href="{% url 'products' %}?category=boystops" class="dropdown-item">Tops</a>
+                <a href="{% url 'products' %}?category=boystrousers" class="dropdown-item">Trousers</a>
+                <a href="{% url 'products' %}?category=boyshoodies" class="dropdown-item">Hoodies</a>
+                <a href="{% url 'products' %}?category=boyshats" class="dropdown-item">Hats</a>
+                <a href="{% url 'products' %}?category=boys" class="dropdown-item">All clothes</a>
+                <a href="{% url 'products' %}?category=boyssale" class="dropdown-item">SALE</a>
             </div>
         </li>
 
